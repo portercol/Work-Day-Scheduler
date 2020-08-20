@@ -72,5 +72,9 @@ textarea{
 
 #currentDay {
   font-weight: bold;
-  color: darkslateblue;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2em;
 }
