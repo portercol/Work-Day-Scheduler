@@ -1,4 +1,4 @@
-# Work Day Planner
+# Work Day Scheduler
 
 This application was built by me and it allows the user to input data into a text area that persists when the page refreshes. The text areas are also color-coded which tells the user if the text area/data is in the past, present or future.
 
@@ -8,6 +8,8 @@ This application was built by me and it allows the user to input data into a tex
 4. The user can delete their data when the task is completed or leave it and based off of the hour of the day it will become a "past task".
 
 ![Word Day Planner](assests/workdayscheduler.jpg)
+
+Link to live site: [Work Day Planner](https://portercol.github.io/Work-Day-Scheduler/)
 
 # Credits
 
