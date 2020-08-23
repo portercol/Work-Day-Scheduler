@@ -2,13 +2,13 @@ var NowMoment = moment();
 var eDisplayMoment = document.getElementById('currentDay');
 eDisplayMoment.innerHTML = NowMoment.format('MMMM Do, YYYY');
 
-function temp(buttonClassName, textAreaClassName, keyName){
-    $(buttonClassName).on("click", function(){
-            var textarea = $(textAreaClassName).val();
-            localStorage.setItem(keyName, textarea);
-        });
-        var textarea10 = localStorage.getItem(keyName);
-        $(textAreaClassName).val(textarea10);
+function temp(buttonClassName, textAreaClassName, keyName) {
+    $(buttonClassName).on("click", function () {
+        var textarea = $(textAreaClassName).val();
+        localStorage.setItem(keyName, textarea);
+    });
+    var textarea10 = localStorage.getItem(keyName);
+    $(textAreaClassName).val(textarea10);
 }
 temp("#button-addon1", ".textarea-9", "data");
 temp("#button-addon2", ".textarea-10", "data10");
@@ -24,14 +24,14 @@ var textbox = $(".textBox");
 
 for (var i = 0; i < textbox.length; i++) {
     var textArea = $(textbox[i]);
-    let textboxhour = textArea.attr("id");   
-    let currenthour = NowMoment.format("H");  
-if (currenthour > parseInt(textboxhour)){
-    textArea.addClass("past");
-} else if (currenthour == parseInt(textboxhour)){
-    textArea.addClass("present");
-};
-if (currenthour < parseInt(textboxhour)){
-    textArea.addClass("future");
-};
+    let textboxhour = textArea.attr("id");
+    let currenthour = NowMoment.format("H");
+    if (currenthour > parseInt(textboxhour)) {
+        textArea.addClass("past");
+    } else if (currenthour == parseInt(textboxhour)) {
+        textArea.addClass("present");
+    };
+    if (currenthour < parseInt(textboxhour)) {
+        textArea.addClass("future");
+    };
 };
