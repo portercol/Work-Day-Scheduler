@@ -9,8 +9,6 @@ This application was built by me and it allows the user to input data into a tex
 
 ![Word Day Planner](assests/workdayscheduler.jpg)
 
-Link to live site: [Work Day Planner](https://portercol.github.io/Work-Day-Scheduler/)
-
 # Credits
 
 1. Bootstrap CDN
