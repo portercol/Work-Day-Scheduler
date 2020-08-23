@@ -1,46 +1,20 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Planner
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This application was built by me and it allows the user to input data into a text area that persists when the page refreshes. The text areas are also color-coded which tells the user if the text area/data is in the past, present or future.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+1. User clicks in a text area and inputs data they want to save by clicking the save button.
+2. The color of the text area will indicate whether that text area is the past hour, present hour or future hour.
+3. When the user clicks save, the data persists and will show even when the page is refreshed.
+4. The user can delete their data when the task is completed or leave it and based off of the hour of the day it will become a "past task".
 
-## User Story
+![Word Day Planner](assests/workdayscheduler.jpg)
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+Link to live site: [Work Day Planner](https://portercol.github.io/Work-Day-Scheduler/)
 
-## Acceptance Criteria
+# Credits
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+1. Bootstrap CDN
+2. jQuery CDN
+3. moment.js CDN
+4. Peers from study groups + TA's/Tutors
+5. GOOGLE!!
