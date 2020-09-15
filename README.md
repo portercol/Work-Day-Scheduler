@@ -13,6 +13,8 @@ This application allows the user to input data into a text area that persists wh
 
 ![Work Day Scheduler](images/workdayscheduler.jpg)
 
+![Work Day Scheduler](images/workdayscheduler2.png)
+
 ## Credits
 
 1. Bootstrap CDN
