@@ -7,7 +7,7 @@ This application was built by me and it allows the user to input data into a tex
 3. When the user clicks save, the data persists and will show even when the page is refreshed.
 4. The user can delete their data when the task is completed or leave it and based off of the hour of the day it will become a "past task".
 
-![Word Day Planner](images/workdayscheduler.jpg)
+![Work Day Scheduler](images/workdayscheduler.jpg)
 
 Link to live site: [Work Day Scheduler](https://portercol.github.io/Work-Day-Scheduler/)
 
